@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nasa.css">
+    <title>Nasa API</title>
+</head>
+<body>
+    
+</body>
+</html>
+<div class="container my-5">
+    <!-- Intro -->
+    <section class="text-center mb-4">
+      <h4 class="mb-4">
+        <strong
+          >Foto do dia - NASA API (<u id="introData"></u>)</strong
+        >
+      </h4>
+  
+      <p>
+        Todo dia uma imagem ou fotografia feita por um astronauta e explicada por especialistas!
+      </p>
+    </section>
+    <!-- Intro -->
+  
+    <!-- Demo -->
+    <section class="md-4">
+      <!-- Data -->
+      <section class="md-4">
+        <!-- Escolher a data -->
+        <div
+          class="form-outline dataSelecionada"
+          data-mdb-toggle-button="true"
+          id="dataSelecionada"
+        >
+          <input
+            type="date"
+            class="form-control"
+            id="data"
+            data-mdb-toggle="dataSelecionada"
+            value=""
+          />
+          <input type="submit" for="exemplodataSelecionada1" class="form-label" 
+          value="Enviar"/>
+        </div>
+      </section>
+      <!-- Data -->
+  
+      <div class="row">
+        <div class="col-md-8 mb-4 mb-md-0">
+          <!-- Media -->
+          <section id="media" class=""></section>
+          <!-- Media -->
+        </div>
+  
+        <div class="col-md-4 mb-4 mb-md-0">
+          <!-- Descrição -->
+          <section class="">
+            <h5 id="titulo"></h5>
+            <p class="text-muted mb-2">
+             
+            </p>
+            <p id="explicacao"></p>
+          </section>
+          <!-- Descrição-->
+        </div>
+      </div>
+    </section>
+    <!-- Demo -->
+    
+    <hr class="my-5">
+  
+    
+          
+       
+  
+         
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="nasa.js"></script>
+
+
+
+</body>
+
+</html>
